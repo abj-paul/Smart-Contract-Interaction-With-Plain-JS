@@ -2,7 +2,7 @@
 It is necessary to understand how everything works under the hood in order to understand how an interaction with blockchain works. In this project, we made a simple contract in hardhat solidity and deployed it in Sepolia testnet.
 [[file:resources/main-page.png]]
 Then we used plain JS and HTML to interact with it.
-[[file:resources/setting-greeting.png][center]]
+[[file:resources/setting-greeting.png]]
 The interaction is mainly three phased.
 ** Getting an RPC Service Provider
 As we know, to interact with the blockchain, we need some sort of RPC Service Provider that will actually execute the functions. For frontend, the RPC can be very simple. So frontend usually uses the metamask as RPC.
